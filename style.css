@@ -1,0 +1,74 @@
+/* CONTACT FORM */
+
+body{
+    background-color: grey;
+}
+.container{
+    justify-content: center;
+    padding: 80px;
+}
+.card{
+    margin: 0 auto;
+    border: 5px solid transparent;
+    box-shadow: 0 0 50px rgb(114, 202, 114);
+    border-radius: 80px;
+    width: 400px;
+    height: 700px;
+    padding: 40px;
+    background-image: url(forest.jpg);
+    background-size: cover;
+}
+h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+span{
+    color: lawngreen;
+}
+label, input, textarea{
+    margin-bottom: 15px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+label{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    border: 5px solid #116655;
+    padding: 5px 35px;
+}
+input:focus{
+    background-color: rgb(140, 243, 166);
+}
+textarea{
+    border: 5px solid #116655;
+    padding: 15px 35px;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+textarea:focus{
+    background-color: rgb(140, 243, 166);
+}
+button{
+    display: block;
+    border: 2px solid #116655;
+    border-radius: 5px;
+    color: #116655;
+    background-color: #fff;
+    padding: 5px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button:hover{
+    border: 3px solid #fff;
+    color: #fff;
+    background-color: #116655;
+    padding: 5px 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
